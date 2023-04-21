@@ -1,0 +1,313 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="background" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Graphics\background.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="background_inHand" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Graphics\background_inHand.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blackBishop_dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Graphics\blackBishop_dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blackBishop_inHand" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Graphics\blackBishop_inHand.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blackBishop_light" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Graphics\blackBishop_light.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blackKing_dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Graphics\blackKing_dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blackKing_inHand" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Graphics\blackKing_inHand.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blackKing_light" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Graphics\blackKing_light.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blackKnight_dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Graphics\blackKnight_dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blackKnight_inHand" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Graphics\blackKnight_inhand.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blackKnight_light" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Graphics\blackKnight_light.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blackPawn_dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Graphics\blackPawn_dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blackPawn_inHand" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Graphics\blackPawn_inHand.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blackPawn_light" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Graphics\blackPawn_light.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blackQueen_dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Graphics\blackQueen_dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blackQueen_inHand" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Graphics\blackQueen_inHand.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blackQueen_light" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Graphics\blackQueen_light.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blackRook_dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Graphics\blackRook_dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blackRook_inHand" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Graphics\blackRook_inHand.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blackRook_light" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Graphics\blackRook_light.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttonChangeTurn_onHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Graphics\buttonChangeTurn_onHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttonChangeTurn_static" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Graphics\buttonChangeTurn_static.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttonCorrections_onHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Graphics\buttonCorrections_onHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttonCorrections_static" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Graphics\buttonCorrections_static.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttonEditPlayerOne_onHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Graphics\buttonEditPlayerOne_onHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttonEditPlayerOne_static" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Graphics\buttonEditPlayerOne_static.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttonEditPlayerTwo_onHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Graphics\buttonEditPlayerTwo_onHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttonEditPlayerTwo_static" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Graphics\buttonEditPlayerTwo_static.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttonExit_onHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Graphics\buttonExit_onHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttonExit_static" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Graphics\buttonExit_static.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttonLoadBoard_onHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Graphics\buttonLoadBoard_onHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttonLoadBoard_static" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Graphics\buttonLoadBoard_static.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttonNewBoard_onHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Graphics\buttonNewBoard_onHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttonNewBoard_static" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Graphics\buttonNewBoard_static.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttonSaveBoard_onHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Graphics\buttonSaveBoard_onHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttonSaveBoard_static" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Graphics\buttonSaveBoard_static.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="darkBoard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Graphics\darkBoard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="darkBoard_move" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Graphics\darkBoard_move.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iconPlayerOne" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Graphics\iconPlayerOne.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iconPlayerTwo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Graphics\iconPlayerTwo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="leftPlayer_moving" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Graphics\leftPlayer_moving.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="leftPlayer_waiting" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Graphics\leftPlayer_waiting.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lightBoard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Graphics\lightBoard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lightBoard_move" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Graphics\lightBoard_move.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rightPlayer_moving" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Graphics\rightPlayer_moving.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rightPlayer_waiting" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Graphics\rightPlayer_waiting.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="whiteBishop_dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Graphics\whiteBishop_dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="whiteBishop_inHand" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Graphics\whiteBishop_inHand.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="whiteBishop_light" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Graphics\whiteBishop_light.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="whiteKing_dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Graphics\whiteKing_dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="whiteKing_inHand" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Graphics\whiteKing_inHand.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="whiteKing_light" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Graphics\whiteKing_light.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="whiteKnight_dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Graphics\whiteKnight_dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="whiteKnight_inHand" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Graphics\whiteKnight_inHand.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="whiteKnight_light" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Graphics\whiteKnight_light.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="whitePawn_dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Graphics\whitePawn_dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="whitePawn_inHand" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Graphics\whitePawn_inHand.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="whitePawn_light" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Graphics\whitePawn_light.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="whiteQueen_dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Graphics\whiteQueen_dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="whiteQueen_inHand" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Graphics\whiteQueen_inHand.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="whiteQueen_light" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Graphics\whiteQueen_light.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="whiteRook_dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Graphics\whiteRook_dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="whiteRook_inHand" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Graphics\whiteRook_inHand.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="whiteRook_light" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Graphics\whiteRook_light.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
